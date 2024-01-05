@@ -1,0 +1,6 @@
+Scaffold: rails g scaffold fpost post_title:string post_text:string post_datetime:datetime post_user_id:integer
+
+https://www.rubydoc.info/gems/react-rails/2.6.1
+New jsx file: rails g react:component HelloWorld greeting:string
+<!-- erb: paste this in view -->
+<%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>

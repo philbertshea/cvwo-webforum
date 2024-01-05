@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Fposts</h1>
+
+<div id="fposts">
+  <% @fposts.each do |fpost| %>
+    <%= render fpost %>
+    <p>
+      <%= link_to "Show this fpost", fpost %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New fpost", new_fpost_path %>

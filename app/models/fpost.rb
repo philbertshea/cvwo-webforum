@@ -1,0 +1,3 @@
+class Fpost < ApplicationRecord
+  belongs_to :user
+end

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @fpost %>
+
+<div>
+  <%= link_to "Edit this fpost", edit_fpost_path(@fpost) %> |
+  <%= link_to "Back to fposts", fposts_path %>
+
+  <%= button_to "Destroy this fpost", @fpost, method: :delete %>
+</div>
